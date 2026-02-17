@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Douvery",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#55D799",
-    "dark": "#0D9373"
+    "primary": "#006366",
+    "light": "#006366",
+    "dark": "#006366"
   },
   "favicon": "/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations/BYQbTie7qxpHiv0S8b3u/sites/site_UQ8YH/icon/UDh84GWDhQSzzi0qlkHz/Diseño-sin-título-(16).png",
   "navigation": {
@@ -131,7 +131,10 @@
       }
     ]
   },
-  "logo": "logo/light.svg",
+  "logo": {
+    "light": "/images/Group218.png",
+    "dark": "/images/Group217.png"
+  },
   "navbar": {
     "links": [
       {
