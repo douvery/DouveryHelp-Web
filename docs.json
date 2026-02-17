@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "mint",
   "name": "Douvery",
   "colors": {
     "primary": "#0D9373",
@@ -131,10 +131,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "logo/light.svg",
-    "dark": "logo/dark.svg"
-  },
+  "logo": "logo/light.svg",
   "navbar": {
     "links": [
       {
@@ -164,5 +161,16 @@
       "facebook": "https://facebook.com/douvery",
       "website": "https://douvery.com.do"
     }
+  },
+  "fonts": {
+    "family": "Open Sans",
+    "weight": 500,
+    "format": "woff2",
+    "heading": {
+      "family": "Open Sans"
+    }
+  },
+  "appearance": {
+    "strict": false
   }
 }
