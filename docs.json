@@ -133,7 +133,7 @@
   },
   "logo": {
     "light": "/images/Group218.png",
-    "dark": "/images/Group217.png"
+    "dark": "/images/logox500.png"
   },
   "navbar": {
     "links": [
@@ -175,5 +175,14 @@
   },
   "appearance": {
     "strict": false
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "seo": {
+    "indexing": "all"
   }
 }
