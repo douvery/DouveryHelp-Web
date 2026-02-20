@@ -167,7 +167,7 @@
   },
   "fonts": {
     "family": "Inter",
-    "weight": 500,
+    "weight": 400,
     "format": "woff2"
   },
   "appearance": {
