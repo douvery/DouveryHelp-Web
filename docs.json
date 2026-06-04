@@ -166,7 +166,7 @@
     }
   },
   "fonts": {
-    "family": "Open Sans",
+    "family": "Inter",
     "weight": 400,
     "format": "woff2"
   },
@@ -183,6 +183,6 @@
     "indexing": "all"
   },
   "background": {
-    "decoration": "windows"
+    "decoration": "grid"
   }
 }
