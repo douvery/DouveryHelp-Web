@@ -182,7 +182,13 @@
   "seo": {
     "indexing": "all"
   },
-  "background": {
-    "decoration": "grid"
+  "styling": {
+    "latex": true
+  },
+  "api": {
+    "examples": {
+      "prefill": true,
+      "autogenerate": true
+    }
   }
 }
