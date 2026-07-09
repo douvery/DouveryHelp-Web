@@ -169,7 +169,7 @@
     }
   },
   "fonts": {
-    "family": "Inter",
+    "family": "DM Sans",
     "weight": 400,
     "format": "woff2"
   },
@@ -196,5 +196,8 @@
   },
   "icons": {
     "library": "lucide"
+  },
+  "background": {
+    "decoration": "windows"
   }
 }
