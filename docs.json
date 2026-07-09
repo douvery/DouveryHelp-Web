@@ -153,7 +153,12 @@
     }
   },
   "contextual": {
-    "options": ["copy", "view", "mcp"]
+    "options": [
+      "copy",
+      "view",
+      "mcp",
+      "assistant"
+    ]
   },
 "scripts": [
   {
