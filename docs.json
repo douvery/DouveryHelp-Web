@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "sequoia",
   "name": "Douvery",
   "colors": {
     "primary": "#0D9373",
     "light": "#55D799",
     "dark": "#0D9373"
   },
-  "favicon": "/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations/BYQbTie7qxpHiv0S8b3u/sites/site_UQ8YH/icon/UDh84GWDhQSzzi0qlkHz/Diseño-sin-título-(16).png",
+  "favicon": {
+    "light": "/images/Group241.png",
+    "dark": "/images/Group241.png"
+  },
   "navigation": {
     "anchors": [
       {
@@ -132,8 +135,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/Group239.png",
+    "dark": "/images/Group238.png"
   },
   "navbar": {
     "links": [
@@ -190,5 +193,8 @@
       "prefill": true,
       "autogenerate": true
     }
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
