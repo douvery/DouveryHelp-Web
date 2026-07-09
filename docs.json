@@ -174,7 +174,7 @@
     }
   },
   "fonts": {
-    "family": "Source Sans Pro"
+    "family": "Inter"
   },
   "appearance": {
     "strict": false
