@@ -169,9 +169,10 @@
     }
   },
   "fonts": {
-    "family": "DM Sans",
-    "weight": 400,
-    "format": "woff2"
+    "body": {
+      "family": "Open Sans",
+      "weight": 400
+    }
   },
   "appearance": {
     "strict": false
