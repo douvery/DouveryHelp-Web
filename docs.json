@@ -169,10 +169,7 @@
     }
   },
   "fonts": {
-    "body": {
-      "family": "Open Sans",
-      "weight": 400
-    }
+    "family": "Source Sans Pro"
   },
   "appearance": {
     "strict": false
