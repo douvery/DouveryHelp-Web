@@ -201,7 +201,6 @@
     "library": "lucide"
   },
   "background": {
-    "decoration": "grid",
     "color": {
       "light": "#FBFAFB"
     }
