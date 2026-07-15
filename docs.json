@@ -170,11 +170,11 @@
       "x": "https://x.com/douvery",
       "instagram": "https://instagram.com/douvery_",
       "facebook": "https://facebook.com/douvery",
-      "website": "https://douvery.com.do"
+      "website": "https://www.douvery.com"
     }
   },
   "fonts": {
-    "family": "Inter"
+    "family": "Geist"
   },
   "appearance": {
     "strict": false
