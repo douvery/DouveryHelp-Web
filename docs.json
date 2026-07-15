@@ -204,5 +204,8 @@
     "color": {
       "light": "#FBFAFB"
     }
+  },
+  "search": {
+    "prompt": "Buscar ..."
   }
 }
