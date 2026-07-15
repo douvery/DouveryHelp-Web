@@ -4,7 +4,7 @@
   "name": "Douvery",
   "colors": {
     "primary": "#212A3E",
-    "light": "#55D799",
+    "light": "#212A3E",
     "dark": "#0D9373"
   },
   "favicon": {
@@ -201,6 +201,9 @@
     "library": "lucide"
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "grid",
+    "color": {
+      "light": "#FBFAFB"
+    }
   }
 }
