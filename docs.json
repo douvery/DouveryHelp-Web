@@ -202,8 +202,7 @@
   },
   "background": {
     "color": {
-      "light": "#FBFAFB",
-      "dark": "#ffffff"
+      "light": "#FBFAFB"
     }
   },
   "search": {
