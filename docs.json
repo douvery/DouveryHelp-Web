@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#212A3E",
     "light": "#212A3E",
-    "dark": "#0D9373"
+    "dark": "#212A3E"
   },
   "favicon": {
     "light": "/images/Group241.png",
@@ -199,11 +199,6 @@
   },
   "icons": {
     "library": "lucide"
-  },
-  "background": {
-    "color": {
-      "light": "#FBFAFB"
-    }
   },
   "search": {
     "prompt": "Buscar ..."
