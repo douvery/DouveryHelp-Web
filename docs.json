@@ -177,7 +177,7 @@
     "family": "Geist"
   },
   "appearance": {
-    "strict": false,
+    "strict": true,
     "default": "light"
   },
   "interaction": {
@@ -190,13 +190,7 @@
     "indexing": "all"
   },
   "styling": {
-    "latex": true,
-    "codeblocks": {
-      "theme": {
-        "light": "red",
-        "dark": "catppuccin-mocha"
-      }
-    }
+    "latex": true
   },
   "api": {
     "examples": {
