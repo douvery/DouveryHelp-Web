@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#212A3E",
     "light": "#212A3E",
-    "dark": "#212A3E"
+    "dark": "#0D9373"
   },
   "favicon": {
     "light": "/images/Group241.png",
@@ -177,7 +177,8 @@
     "family": "Geist"
   },
   "appearance": {
-    "strict": false
+    "strict": false,
+    "default": "light"
   },
   "interaction": {
     "drilldown": true
@@ -189,7 +190,13 @@
     "indexing": "all"
   },
   "styling": {
-    "latex": true
+    "latex": true,
+    "codeblocks": {
+      "theme": {
+        "light": "red",
+        "dark": "catppuccin-mocha"
+      }
+    }
   },
   "api": {
     "examples": {
@@ -202,5 +209,10 @@
   },
   "search": {
     "prompt": "Buscar ..."
+  },
+  "background": {
+    "color": {
+      "light": "#FBFAFB"
+    }
   }
 }
