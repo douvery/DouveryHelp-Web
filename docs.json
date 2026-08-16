@@ -51,18 +51,7 @@
       "instagram": "https://instagram.com/douvery_",
       "facebook": "https://facebook.com/douvery",
       "website": "https://www.douvery.com"
-    },
-    "links": [
-      {
-        "header": "Sessiones",
-        "items": [
-          {
-            "label": "Iniciar session en Douvery",
-            "href": "https://auth.douvery.com/?continue=https%3A%2F%2Fauth.douvery.com%2Foauth%2Fauthorize%3Fclient_id%3Ddouvery-marketplace%26redirect_uri%3Dhttp%253A%252F%252Fwww.douvery.com%252Fcallback%26response_type%3Dcode%26code_challenge%3D8eIGg58BF2Wi7HjGS28PT8uJ462oH8x6Ez9B8WkkOmY%26code_challenge_method%3DS256%26state%3DEI39rVAwdUXUMDOohmo_wg"
-          }
-        ]
-      }
-    ]
+    }
   },
   "fonts": {
     "family": "Geist"
