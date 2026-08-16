@@ -12,7 +12,9 @@
     "dark": "/images/Group241.png"
   },
   "navigation": {
-    "groups": []
+    "pages": [
+      "home"
+    ]
   },
   "logo": {
     "light": "/images/DouveryLogo.png",
