@@ -12,10 +12,11 @@
     "dark": "/images/Group241.png"
   },
   "navigation": {
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Documentation",
-        "icon": "book-open",
+        "tab": "Documentation",
+        "icon": "smart-home",
+        "hidden": true,
         "groups": [
           {
             "group": "Inicio",
@@ -128,17 +129,12 @@
             ]
           }
         ]
-      },
-      {
-        "anchor": "Contáctenos",
-        "icon": "envelope",
-        "href": "mailto:support@douvery.com"
       }
     ]
   },
   "logo": {
-    "light": "/images/DouveryLogo.png",
-    "dark": "/images/Douverylogolight.png"
+    "light": "/images/DouveryLogo–Small.png",
+    "dark": "/images/DouveryLogo–Small.png"
   },
   "navbar": {
     "links": [
