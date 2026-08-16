@@ -207,5 +207,12 @@
     "color": {
       "light": "#FBFAFB"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/home",
+      "permanent": true
+    }
+  ]
 }
