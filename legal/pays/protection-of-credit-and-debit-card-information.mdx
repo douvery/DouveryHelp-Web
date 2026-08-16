@@ -2,22 +2,37 @@
 title: "Protección de información"
 ---
 
+Douvery utiliza proveedores de pago externos para procesar información financiera de forma segura y limitar la exposición de datos sensibles dentro de nuestros sistemas.
 
-Es importante que sepa que en Douvery **no almacenamos ninguna información de tarjetas de crédito o débito** en nuestros sistemas.
+<Info>
+  Última actualización: 16 de agosto de 2026.
+</Info>
 
-## Stripe
-Utilizamos Stripe, una plataforma de pagos líder en la industria, para procesar todas las transacciones. Stripe ha sido auditeda por un PCI Qualified Security Assessor (QSA) y está certificada como un Proveedor de Nivel 1 de PCI DSS, lo que representa el nivel más alto de seguridad en la industria de las tarjetas de pago.
+## Procesamiento mediante proveedores externos
 
-Cuando realiza una transacción en nuestro sitio web, su información se envía de manera segura directamente a Stripe a través de una pasarela de pago encriptada. Stripe utiliza y procesa sus datos de tarjeta de acuerdo con los estándares de la industria para proteger su información financiera. Nosotros nunca tendremos acceso directo a los detalles de su tarjeta de crédito o débito.
+Cuando introduces los datos de una tarjeta mediante componentes integrados de un proveedor de pago, como Stripe u otro proveedor compatible, esa información puede enviarse directamente al proveedor sin que Douvery necesite recibir o almacenar el número completo de la tarjeta.
 
-Estas medidas aseguran que su información financiera permanece segura y protegida en cada paso de su transacción con Douvery.
+Los proveedores de pago mantienen sus propias medidas de seguridad, certificaciones y obligaciones regulatorias. La disponibilidad de un proveedor o método puede variar según el país, operación y configuración de Douvery.
 
-## PayPal
+## Qué información puede conservar Douvery
 
-También ofrecemos PayPal como una opción de pago para nuestros clientes. Al igual que con Stripe, en Douvery **no almacenamos ninguna información de tarjetas de crédito o débito** en nuestros sistemas al realizar transacciones a través de PayPal.
+Aunque Douvery no necesite almacenar el número completo de una tarjeta, podemos conservar información limitada relacionada con una transacción, como:
 
-Cuando elige usar PayPal para completar su compra, se le redirige a la plataforma de pago segura de PayPal. Una vez allí, puede optar por pagar directamente desde su cuenta de PayPal o usar una tarjeta de crédito o débito a través de la interfaz de PayPal. En ambos casos, toda su información financiera se maneja y almacena de manera segura por PayPal, y nunca tenemos acceso a los detalles de su tarjeta o cuenta.
+- identificadores del proveedor de pago;
+- marca de la tarjeta;
+- últimos dígitos cuando el proveedor los facilite;
+- estado de autorización, captura o reembolso;
+- importe, moneda y fecha;
+- información necesaria para soporte, conciliación, fraude y cumplimiento legal.
 
-PayPal utiliza medidas de seguridad de última generación y cumple con todas las regulaciones de la industria para garantizar la seguridad de su información. Al igual que con Stripe, estas medidas aseguran que su información financiera esté segura y protegida durante cada paso de su transacción con Douvery.
+## Seguridad
 
- 
+Aplicamos medidas técnicas y organizativas razonables para proteger la información relacionada con pagos. Ningún sistema puede garantizar seguridad absoluta.
+
+Si sospechas que tu método de pago fue utilizado sin autorización, contacta inmediatamente a tu banco o emisor y notifícanos mediante [support@douvery.com](mailto:support@douvery.com).
+
+## Proveedores de pago
+
+El tratamiento realizado directamente por un proveedor de pago también puede estar sujeto a sus propios términos y políticas de privacidad.
+
+Consulta nuestra [Política de pagos](/legal/policy/payment-policy) y [Política de privacidad](/legal/policy/privacy-policy) para más información.
