@@ -13,7 +13,8 @@
   },
   "navigation": {
     "pages": [
-      "home"
+      "home",
+      "aplicacion-de-douvery"
     ]
   },
   "logo": {
