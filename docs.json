@@ -12,12 +12,12 @@
     "dark": "/images/Group241.png"
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Documentation",
+        "group": "Documentation",
         "icon": "smart-home",
         "hidden": true,
-        "groups": [
+        "pages": [
           {
             "group": "Inicio",
             "pages": [
