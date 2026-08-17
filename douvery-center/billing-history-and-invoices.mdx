@@ -1,0 +1,59 @@
+---
+title: "Historial de facturación y facturas"
+sidebarTitle: "Historial y facturas"
+description: "Cómo consultar cobros de suscripción, estados de facturación y facturas disponibles en Douvery Center."
+keywords: ["facturación", "facturas", "suscripción", "Stripe", "Center"]
+---
+
+<Info>
+  Última actualización: 16 de agosto de 2026.
+</Info>
+
+Douvery Center dispone de un historial de facturación para las suscripciones de tienda. La información mostrada se genera a partir del estado registrado para la suscripción y los eventos procesados del proveedor de pagos.
+
+## Historial de facturación
+
+En **Configuración → Facturación → Historial** puedes consultar los registros disponibles para tu tienda.
+
+Dependiendo del registro, Center puede mostrar información como:
+
+- fecha;
+- importe y moneda;
+- estado del pago;
+- plan o período relacionado;
+- enlace a una factura o documento cuando el proveedor lo haya generado y esté disponible.
+
+## Facturas
+
+Cuando exista una `invoiceUrl` válida para el registro, Center puede ofrecer acceso al documento asociado.
+
+<Note>
+  Que una fila de historial exista no significa que siempre haya un PDF o enlace externo disponible. La disponibilidad del documento depende del proveedor y del estado de la factura.
+</Note>
+
+## Pagos exitosos y fallidos
+
+Douvery procesa eventos de facturación como pagos de factura exitosos o fallidos y cambios de suscripción. El estado puede tardar un momento en reflejarse si el proveedor todavía está procesando la operación o si un evento requiere reintento.
+
+No realices un segundo pago únicamente porque la pantalla no se haya actualizado de inmediato. Primero verifica el estado actual de la suscripción y del historial.
+
+## Cambio de plan
+
+Los precios y planes vigentes se obtienen desde el backend de Douvery Center. Por esa razón, la documentación no fija un importe mensual como fuente autoritativa.
+
+Antes de confirmar un cambio, revisa en Center:
+
+- precio mostrado;
+- moneda;
+- período de facturación;
+- beneficios y límites;
+- fecha o efecto del cambio;
+- cualquier cargo mostrado antes de confirmar.
+
+## Cancelaciones y renovación
+
+La renovación, cancelación, cambios de plan y efectos sobre el acceso se rigen por los [Términos de Douvery Center y suscripciones](/legal/policy/douvery-center-subscription-terms) y por la información mostrada en la interfaz al momento de la operación.
+
+## Si ves una diferencia
+
+Si el proveedor muestra un cobro que no aparece correctamente en Center, o si una factura parece duplicada, no intentes corregirlo creando pagos manuales. Contacta a [soporte](/ayudas-y-mas/contactos) e incluye el identificador o fecha del cobro sin compartir números completos de tarjetas ni credenciales.

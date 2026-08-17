@@ -116,7 +116,16 @@
           {
             "group": "Productos e inventario",
             "pages": [
-              "douvery-center/products-and-inventory"
+              "douvery-center/products-and-inventory",
+              "douvery-center/warehouses-and-stock"
+            ]
+          },
+          {
+            "group": "Pedidos y devoluciones",
+            "pages": [
+              "douvery-center/orders-and-confirmations",
+              "douvery-center/returns-and-refunds",
+              "douvery-center/disputes-and-chargebacks"
             ]
           },
           {
@@ -129,19 +138,28 @@
             "group": "Planes y facturación",
             "pages": [
               "douvery-center/plans-and-limits",
+              "douvery-center/billing-history-and-invoices",
               "legal/policy/douvery-center-subscription-terms"
             ]
           },
           {
             "group": "Pagos a la tienda",
             "pages": [
-              "douvery-center/store-payouts"
+              "douvery-center/store-payouts",
+              "douvery-center/bank-account-and-payout-eligibility",
+              "douvery-center/balances-ledger-and-holds"
             ]
           },
           {
             "group": "Douvery Fulfillment",
             "pages": [
               "douvery-center/fulfillment"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "douvery-center/analytics"
             ]
           },
           {

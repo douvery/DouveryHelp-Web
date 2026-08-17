@@ -1,0 +1,70 @@
+---
+title: "Pedidos y confirmación del vendedor"
+sidebarTitle: "Pedidos y confirmaciones"
+description: "Cómo revisar pedidos que requieren confirmación y qué ocurre al confirmar, rechazar o dejar vencer una solicitud."
+keywords: ["pedidos", "confirmación", "vendedor", "captura", "Douvery Center"]
+---
+
+<Info>
+  Última actualización: 16 de agosto de 2026.
+</Info>
+
+Douvery puede utilizar un flujo de **captura diferida** en determinadas compras. En esos casos, el método de pago del comprador puede quedar autorizado antes de que el cobro se capture definitivamente y el vendedor debe confirmar que puede atender los artículos correspondientes.
+
+## Cola de confirmaciones
+
+Cuando un pedido requiera confirmación, Douvery Center lo muestra en la cola de **Pedidos → Confirmaciones** de la tienda correspondiente.
+
+Desde esa vista puedes:
+
+- revisar los artículos pendientes;
+- consultar el plazo de confirmación;
+- confirmar que puedes atenderlos;
+- rechazar la solicitud cuando no puedas cumplirla;
+- consultar si una confirmación ya fue procesada o expiró.
+
+## Plazo de confirmación
+
+El flujo canónico utiliza un plazo de **72 horas** para las confirmaciones que requieren acción del vendedor.
+
+<Warning>
+  No esperes hasta el final del plazo si ya sabes que no puedes cumplir el pedido. Rechazarlo oportunamente ayuda a que Douvery pueda cancelar o liberar la autorización correspondiente sin demoras innecesarias.
+</Warning>
+
+## Qué ocurre cuando confirmas
+
+La confirmación indica que la tienda está en condiciones de atender los artículos asociados a esa solicitud.
+
+Cuando todas las confirmaciones requeridas de una autorización quedan resueltas favorablemente, el flujo puede avanzar al estado preparado para captura y posteriormente al cobro, sujeto a las validaciones y reglas del sistema de pagos.
+
+Una confirmación no permite modificar desde el navegador el precio, moneda, impuestos, envío, descuentos ni total del pedido. Esos importes se determinan de forma autoritativa en el servidor.
+
+## Qué ocurre cuando rechazas
+
+Si rechazas una confirmación requerida, el flujo de pago puede cancelarse y las demás confirmaciones todavía pendientes pueden quedar expiradas como parte de la convergencia de cancelación.
+
+Cuando rechaces, utiliza un motivo verdadero y proporciona información adicional cuando sea solicitada.
+
+## Confirmaciones vencidas
+
+Si vence el plazo sin una confirmación válida, la solicitud puede pasar a estado expirado y la autorización asociada puede cancelarse según el estado de la operación.
+
+No intentes cumplir un pedido basándote únicamente en una captura de pantalla o en un estado anterior. Revisa siempre el estado actual mostrado por Douvery Center.
+
+## Estados de pago relacionados
+
+Dependiendo del momento de la operación, Douvery puede mostrar estados como:
+
+- autorizando;
+- esperando confirmación del vendedor;
+- listo para capturar;
+- pagado;
+- cancelado.
+
+El estado visible en el sistema es la referencia operativa; un correo o notificación no sustituye el estado actual del pedido.
+
+## Si ya procesaste una solicitud
+
+Las acciones están diseñadas para ser idempotentes. Si una solicitud ya fue confirmada, rechazada o expirada, Center puede indicarte que ya fue procesada en lugar de ejecutar una segunda acción incompatible.
+
+Para incidencias que no puedas resolver desde Center, contacta a [soporte](/ayudas-y-mas/contactos).
