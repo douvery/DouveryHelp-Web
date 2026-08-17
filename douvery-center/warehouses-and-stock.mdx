@@ -1,0 +1,52 @@
+---
+title: "Almacenes y control de stock"
+sidebarTitle: "Almacenes y stock"
+description: "Cómo organizar inventario por almacén y entender los límites de almacenes según el plan."
+keywords: ["almacenes", "stock", "inventario", "Center", "warehouse"]
+---
+
+<Info>
+  Última actualización: 16 de agosto de 2026.
+</Info>
+
+Douvery Center permite administrar inventario y almacenes asociados a una tienda. Estos almacenes representan ubicaciones operativas del vendedor y no deben confundirse automáticamente con instalaciones de Douvery Fulfillment.
+
+## Límites según el plan
+
+La configuración actual de Center contempla los siguientes límites de almacenes:
+
+- **Básico:** 1 almacén;
+- **Profesional:** hasta 3 almacenes;
+- **Empresarial:** hasta 10 almacenes.
+
+El backend valida el beneficio aplicable al crear almacenes. Si la interfaz muestra un límite distinto por una configuración posterior, utiliza el valor vigente de Center.
+
+## Inventario por ubicación
+
+Cuando un producto utiliza cantidades por almacén, mantén cada ubicación actualizada. La disponibilidad pública y el checkout pueden depender de inventario validado en el servidor.
+
+No confíes únicamente en una cantidad escrita manualmente en una descripción o en una captura antigua de Center.
+
+## Buenas prácticas
+
+- registra únicamente ubicaciones que tu tienda realmente controla o está autorizada a utilizar;
+- evita duplicar el mismo stock en varios almacenes;
+- actualiza cantidades después de ajustes físicos;
+- revisa variantes y productos asociados antes de modificar cantidades;
+- investiga diferencias antes de compensarlas con ajustes arbitrarios.
+
+## Pedidos y reservas
+
+Una cantidad visible no significa necesariamente que todas las unidades estén libres para nuevas ventas. El sistema puede mantener reservas o movimientos asociados a pedidos en curso.
+
+El checkout y los flujos de reserva aplicables utilizan el estado autoritativo del servidor para evitar depender de cantidades enviadas por el cliente.
+
+## Devoluciones
+
+Cuando una devolución sea recibida e inspeccionada, repón inventario solo mediante el flujo autorizado y cuando el artículo pueda considerarse nuevamente vendible.
+
+## Douvery Fulfillment
+
+El inventario que una tienda administra para su propia operación no implica que esas unidades hayan sido recibidas físicamente por Douvery Fulfillment.
+
+Consulta [Douvery Fulfillment](/douvery-center/fulfillment) para conocer el estado y alcance de ese servicio.

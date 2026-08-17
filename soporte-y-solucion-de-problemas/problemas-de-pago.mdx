@@ -3,277 +3,119 @@ title: "Problemas de Pago - Guía de Solución"
 description: "Resuelve rápidamente cualquier problema relacionado con pagos y transacciones"
 ---
 
-Los problemas de pago pueden ser frustrantes, pero la mayoría tienen soluciones sencillas. Aquí te ayudamos a resolver los inconvenientes más comunes.
+<Info>
+  Última actualización: 16 de agosto de 2026.
+</Info>
 
-## **Problemas Comunes con Tarjetas**
+Si un pago no sale como esperabas, evita repetir la operación sin comprobar primero el estado actual del pedido. Douvery utiliza estados autoritativos del servidor y, en determinadas compras, puede existir una **autorización** antes del cobro definitivo.
 
-### **Mi Tarjeta Fue Rechazada**
+## Tarjeta o método rechazado
 
-<AccordionGroup>
-  <Accordion title="Tarjeta rechazada - Fondos insuficientes">
-    **¿Qué significa?** No hay dinero suficiente en tu cuenta para cubrir la compra.
+Un rechazo puede producirse por motivos como:
 
-    **Soluciones:**
+- fondos o límite insuficiente;
+- datos de pago incorrectos;
+- tarjeta vencida;
+- restricciones del emisor;
+- controles de seguridad;
+- autenticación adicional requerida;
+- método no disponible para esa operación.
 
-    1. Verifica el saldo de tu cuenta bancaria
-    2. Considera los costos adicionales (envío, impuestos)
-    3. Usa una tarjeta diferente
-    4. Reduce la cantidad de productos en tu carrito
-    5. Contacta a tu banco si crees que hay un error
-  </Accordion>
+### Qué hacer
 
-  <Accordion title="Tarjeta rechazada - Información incorrecta">
-    **Datos a verificar:**
+1. verifica los datos introducidos;
+2. revisa con tu banco o emisor si existe una restricción;
+3. utiliza otro método **solo si aparece disponible en el checkout**;
+4. vuelve a intentar únicamente cuando estés seguro de que el intento anterior no generó una operación activa.
 
-    - Número de tarjeta (16 dígitos)
-    - Fecha de vencimiento (MM/AA)
-    - Código CVV (3 dígitos atrás, 4 en American Express)
-    - Nombre exacto como aparece en la tarjeta
-    - Dirección de facturación correcta
+Douvery no garantiza que todos los métodos de pago estén disponibles para todas las compras, países o cuentas.
 
-    **Tip:** Copia los datos directamente de tu tarjeta física para evitar errores.
-  </Accordion>
+## Autorización no es lo mismo que cobro
 
-  <Accordion title="Tarjeta rechazada - Bloqueo de seguridad">
-    **Por qué pasa:** Los bancos bloquean transacciones que consideran sospechosas.
+En algunos flujos, el banco puede mostrar una autorización o importe pendiente antes de que Douvery capture definitivamente el pago.
 
-    **Soluciones:**
+Esto puede ocurrir mientras el pedido está:
 
-    1. Contacta a tu banco inmediatamente
-    2. Informa que quieres hacer una compra en Douvery
-    3. Pide que autoricen la transacción
-    4. Intenta el pago nuevamente en 10-15 minutos
-  </Accordion>
+- autorizándose;
+- esperando confirmación del vendedor;
+- listo para captura;
+- siendo cancelado o liberado.
 
-  <Accordion title="Tarjeta rechazada - Tarjeta vencida">
-    **Qué hacer:**
+Una autorización temporal no debe interpretarse automáticamente como un segundo cobro definitivo.
 
-    - Verifica la fecha de vencimiento en tu tarjeta física
-    - Si está vencida, usa otra tarjeta
-    - Contacta a tu banco para solicitar renovación
-    - Actualiza la información si tienes una tarjeta nueva
-  </Accordion>
-</AccordionGroup>
+## El banco muestra un cargo pero no veo el pedido
 
-### **Problemas con Pagos Internacionales**
+Primero:
 
-<AccordionGroup>
-  <Accordion title="Mi banco no permite compras internacionales">
-    **Soluciones:**
+1. revisa **Mis pedidos**;
+2. consulta el estado actual del pedido y del pago;
+3. evita crear inmediatamente otro pedido idéntico;
+4. conserva el identificador o referencia visible de la operación;
+5. contacta a soporte si el estado no puede explicarse desde la cuenta.
 
-    1. Contacta a tu banco para habilitar compras internacionales
-    2. Informa que harás una compra en República Dominicana
-    3. Proporciona el monto aproximado y fecha
-    4. Usa PayPal como alternativa
-  </Accordion>
+No publicamos un tiempo fijo universal para que una operación aparezca o se reconcilie, porque puede depender del proveedor de pagos, del banco y del estado concreto del flujo.
 
-  <Accordion title="Diferencias en el tipo de cambio">
-    **Qué esperar:**
+## Posible doble cobro
 
-    - El banco puede aplicar un tipo de cambio diferente al momento del cobro
-    - Pueden haber comisiones adicionales por transacciones internacionales
-    - El monto final puede variar ligeramente
+Si ves dos movimientos similares:
 
-    **Recomendación:** Revisa las políticas de tu banco sobre transacciones internacionales.
-  </Accordion>
-</AccordionGroup>
-
-## **Problemas con PayPal**
-
-<AccordionGroup>
-  <Accordion title="Error al conectar con PayPal">
-    **Pasos a seguir:**
-
-    1. Verifica que tu cuenta de PayPal esté activa
-    2. Confirma que tengas fondos o una tarjeta vinculada
-    3. Cierra y abre tu navegador
-    4. Intenta desde un dispositivo diferente
-    5. Desactiva bloqueadores de ventanas emergentes
-  </Accordion>
-
-  <Accordion title="PayPal rechaza el pago">
-    **Causas comunes:**
-
-    - Límites de gasto en tu cuenta PayPal
-    - Cuenta PayPal con restricciones
-    - Problemas con la tarjeta vinculada a PayPal
-
-    **Soluciones:**
-
-    1. Revisa tu cuenta PayPal directamente
-    2. Verifica límites y restricciones
-    3. Actualiza tu método de pago en PayPal
-    4. Contacta soporte de PayPal si es necesario
-  </Accordion>
-
-  <Accordion title="No me redirige de vuelta a Douvery">
-    **Si te quedas en PayPal después del pago:**
-
-    1. No cierres la ventana de PayPal
-    2. Busca un botón "Regresar al comercio" o similar
-    3. Si no aparece, regresa manualmente a Douvery
-    4. Revisa tu email para confirmación de pago
-    5. Ve a "Mis Pedidos" para verificar el estado
-  </Accordion>
-</AccordionGroup>
-
-## **Problemas Durante la Transacción**
-
-### **El Pago se Procesó Pero No Veo Mi Pedido**
-
-<Steps>
-  <Step title="No entres en pánico">
-    Es normal que haya un retraso de algunos minutos entre el pago y la confirmación del pedido.
-  </Step>
-  <Step title="Espera 15-30 minutos">
-    La mayoría de pedidos aparecen en este tiempo. Revisa tu email mientras tanto.
-  </Step>
-  <Step title="Revisa tu cuenta">
-    Ve a "Mis Pedidos" para ver si el pedido aparece allí, aunque no hayas recibido email.
-  </Step>
-  <Step title="Verifica el cargo">
-    Consulta tu estado de cuenta bancario o PayPal para confirmar que se hizo el cargo.
-  </Step>
-  <Step title="Contacta soporte">
-    Si después de 2 horas no aparece el pedido, contacta soporte con:
-
-    - Captura del cargo en tu tarjeta/PayPal
-    - Hora aproximada del pago
-    - Productos que intentaste comprar
-  </Step>
-</Steps>
-
-### **Me Cobraron Dos Veces**
+- comprueba si uno es una autorización pendiente y otro un cobro definitivo;
+- revisa si existen uno o dos pedidos;
+- compara importe, fecha y estado;
+- no hagas un tercer intento para “corregir” el problema;
+- contacta a soporte si ambos movimientos parecen cobros definitivos de la misma compra.
 
 <Warning>
-  **¡No hagas otro pago!** Los cargos duplicados suelen resolverse automáticamente en 24-72 horas.
+  No compartas números completos de tarjeta, CVV, contraseñas, códigos de verificación ni credenciales bancarias con soporte.
 </Warning>
 
-**Qué hacer:**
+## Reembolsos
 
-1. **Verifica si son cargos reales:** A veces aparecen "pre-autorizaciones" temporales
-2. **Revisa tus pedidos:** Confirma si tienes uno o dos pedidos
-3. **Toma capturas de pantalla** de ambos cargos
-4. **Contacta soporte inmediatamente** con la evidencia
-5. **No disputes con el banco aún:** Deja que Douvery resuelva primero
+Cuando un reembolso sea aprobado y ejecutado, el tiempo hasta que aparezca en tu cuenta puede depender del proveedor de pagos, banco, red, moneda y estado de la operación.
 
-## **Reembolsos y Devoluciones**
+Douvery no promete un plazo bancario único de 3, 5 o 10 días para todos los casos.
 
-### **¿Cuándo Recibiré mi Reembolso?**
+Para revisar un reembolso:
 
-<CardGroup cols={2}>
-  <Card title="Tarjetas de Crédito/Débito">
-    **Tiempo típico:** 5-10 días hábiles
+1. consulta el pedido o devolución correspondiente;
+2. verifica el estado que muestre Douvery;
+3. revisa tu estado de cuenta completo;
+4. si Douvery indica que el reembolso fue procesado pero aún no aparece, consulta también con tu banco o proveedor de pago;
+5. contacta a soporte con el número de pedido o devolución si persiste la diferencia.
 
-    El reembolso aparece primero en tu estado de cuenta de Douvery, luego se refleja en tu banco.
-  </Card>
+Consulta la [Política de devoluciones y reembolsos](/legal/policy/returns-and-refunds-policy-of-douvery).
 
-  <Card title="PayPal">
-    **Tiempo típico:** 3-5 días hábiles
+## Cargos no autorizados
 
-    Los reembolsos de PayPal suelen ser más rápidos y aparecen directamente en tu cuenta PayPal.
-  </Card>
-</CardGroup>
+Si detectas un cargo que no reconoces:
 
-### **No He Recibido mi Reembolso**
+- cambia la contraseña de tu cuenta de Douvery;
+- revisa pedidos y actividad reciente;
+- protege tu método de pago con tu banco o emisor;
+- utiliza los mecanismos de reporte que te correspondan con tu institución financiera;
+- contacta a Douvery para investigar cualquier cuenta o pedido relacionado.
 
-**Si han pasado más días de los esperados:**
+Douvery no te exige renunciar a derechos de disputa o contracargo que te correspondan. Consulta [Disputas, cancelaciones y contracargos](/legal/policy/disputes-cancellations-chargebacks).
 
-1. **Verifica el estado** en "Mis Pedidos" → "Devoluciones"
-2. **Revisa tu estado de cuenta completo** (no solo el balance actual)
-3. **Contacta a tu banco** para preguntar sobre reembolsos pendientes
-4. **Si usaste PayPal,** revisa la sección "Actividad" en tu cuenta
-5. **Contacta soporte** con el número de la devolución
+## Problemas técnicos durante el checkout
 
-## **Problemas Urgentes de Seguridad**
+Si la pantalla se queda cargando o muestra un error:
 
-### **Cargos No Autorizados**
+1. evita repetir clics de pago continuamente;
+2. abre tu cuenta y revisa si se creó un pedido;
+3. comprueba si tu banco muestra una autorización o cobro;
+4. si no existe pedido ni movimiento, vuelve a intentar desde un navegador o dispositivo compatible;
+5. si existe una operación incierta, contacta soporte antes de repetirla.
 
-<Warning>
-  **Acción inmediata requerida**
-</Warning>
+## Información útil para soporte
 
-**Si ves cargos que no reconoces:**
+Puedes proporcionar:
 
-1. **Contacta a Douvery** mediante los canales de soporte disponibles
-2. **Cambia tu contraseña** de Douvery de inmediato
-3. **Revisa tu actividad de cuenta** en "Mis Pedidos"
-4. **Contacta tu banco** para reportar el fraude
-5. **Considera bloquear tu tarjeta** temporalmente
+- número de pedido, si existe;
+- importe y moneda;
+- fecha aproximada;
+- últimos 4 dígitos de la tarjeta cuando sea necesario para identificar la operación;
+- capturas del error ocultando información sensible;
+- estado que muestra Douvery.
 
-### **Alguien Más Usó Mi Cuenta**
-
-**Pasos de seguridad:**
-
-1. **Cambia tu contraseña inmediatamente**
-2. **Revisa todos tus pedidos** recientes
-3. **Verifica tu información personal** (dirección, teléfono)
-4. **Cierra sesión en todos los dispositivos**
-5. **Activa autenticación de dos factores** si está disponible
-6. **Contacta soporte** para revisar la actividad de tu cuenta
-
-## **Errores Técnicos Durante el Pago**
-
-<AccordionGroup>
-  <Accordion title="La página se queda cargando">
-    **Soluciones:**
-
-    1. **No actualices ni cierres** la página por al menos 5 minutos
-    2. Si no responde, abre una nueva pestaña y revisa "Mis Pedidos"
-    3. Verifica si se procesó el pago en tu banco/PayPal
-    4. Si no hay cargo, intenta el pago nuevamente
-    5. Usa la app móvil como alternativa
-  </Accordion>
-
-  <Accordion title="Error 'Algo salió mal' durante el pago">
-    **Pasos a seguir:**
-
-    1. Verifica tu conexión a internet
-    2. Actualiza la página e intenta de nuevo
-    3. Usa un navegador diferente
-    4. Intenta desde otro dispositivo
-    5. Contacta soporte si persiste
-  </Accordion>
-
-  <Accordion title="No puedo completar el pago en la app">
-    **Alternativas:**
-
-    1. Intenta desde el navegador web
-    2. Actualiza la app a la última versión
-    3. Reinicia tu dispositivo
-    4. Verifica que tengas suficiente espacio de almacenamiento
-    5. Reinstala la app si es necesario
-  </Accordion>
-</AccordionGroup>
-
-## **Cuándo Contactar Soporte**
-
-### **Contacta Inmediatamente Para:**
-
-- Cargos no autorizados o fraudulentos
-- Cuenta comprometida o hackeada
-- Doble cobro confirmado
-- Problemas con reembolsos después del tiempo esperado
-
-### **Puedes Intentar Solucionarlo Primero:**
-
-- Tarjeta rechazada (verifica datos y fondos)
-- Errores técnicos menores (reinicia navegador/app)
-- Dudas sobre tiempos de reembolso normales
-
-### **Información Útil para Soporte:**
-
-- **Número de pedido** (si existe)
-- **Últimos 4 dígitos de tu tarjeta**
-- **Monto exacto** del cargo problemático
-- **Fecha y hora** del intento de pago
-- **Capturas de pantalla** del error
-- **Método de pago usado** (tarjeta/PayPal)
-
-<Note>
-  **Nunca compartas:** Número completo de tarjeta, CVV, contraseñas, o códigos de verificación. Nuestro soporte nunca te pedirá esta información.
-</Note>
-
----
-
-**¿Tienes un problema de pago que no está aquí?** Contacta a nuestro equipo a través de los [canales oficiales](/ayudas-y-mas/contactos) disponibles.
+Para asistencia utiliza los [canales oficiales](/ayudas-y-mas/contactos).
