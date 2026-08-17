@@ -108,9 +108,46 @@
             ]
           },
           {
+            "group": "Tienda",
+            "pages": [
+              "douvery-center/store-management"
+            ]
+          },
+          {
+            "group": "Productos e inventario",
+            "pages": [
+              "douvery-center/products-and-inventory"
+            ]
+          },
+          {
+            "group": "Equipo",
+            "pages": [
+              "douvery-center/team-members"
+            ]
+          },
+          {
             "group": "Planes y facturación",
             "pages": [
+              "douvery-center/plans-and-limits",
               "legal/policy/douvery-center-subscription-terms"
+            ]
+          },
+          {
+            "group": "Pagos a la tienda",
+            "pages": [
+              "douvery-center/store-payouts"
+            ]
+          },
+          {
+            "group": "Douvery Fulfillment",
+            "pages": [
+              "douvery-center/fulfillment"
+            ]
+          },
+          {
+            "group": "Seguridad",
+            "pages": [
+              "douvery-center/security"
             ]
           },
           {
@@ -129,7 +166,8 @@
           {
             "group": "Información legal",
             "pages": [
-              "legal/policy"
+              "legal/policy",
+              "legal/corporate-information"
             ]
           },
           {
@@ -149,6 +187,7 @@
             "group": "Privacidad y contenido",
             "pages": [
               "legal/policy/privacy-policy",
+              "legal/policy/cookies-and-tracking-technologies",
               "legal/pays/protection-of-credit-and-debit-card-information",
               "legal/policy/user-generated-content-policy",
               "legal/codes-of-conduct/douvery-code-of-conduct-for-product-testimonials-and-reviews"
