@@ -304,6 +304,21 @@
       "source": "/",
       "destination": "/home",
       "permanent": true
+    },
+    {
+      "source": "/policy/terms-of-use-of-douvery",
+      "destination": "/legal/policy/terms-of-use-of-douvery",
+      "permanent": true
+    },
+    {
+      "source": "/policy/returns-and-refunds-policy-of-douvery",
+      "destination": "/legal/policy/returns-and-refunds-policy-of-douvery",
+      "permanent": true
+    },
+    {
+      "source": "/codes-of-conduct/douvery-code-of-conduct-for-product-testimonials-and-reviews",
+      "destination": "/legal/codes-of-conduct/douvery-code-of-conduct-for-product-testimonials-and-reviews",
+      "permanent": true
     }
   ]
 }
