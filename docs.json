@@ -12,12 +12,11 @@
     "dark": "/images/Group241.png"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Documentation",
-        "icon": "smart-home",
-        "hidden": true,
-        "pages": [
+        "tab": "Douvery Marketplace",
+        "icon": "shopping-cart",
+        "groups": [
           {
             "group": "Inicio",
             "pages": [
@@ -27,7 +26,7 @@
             ]
           },
           {
-            "group": "Seguridad en douvery",
+            "group": "Cuenta y seguridad",
             "pages": [
               "seguridad-en-douvery/mi-seguridad",
               {
@@ -41,15 +40,19 @@
             ]
           },
           {
-            "group": "Guias",
+            "group": "Guías",
             "pages": [
               {
-                "group": "Guias de Usuario",
+                "group": "Comprar en Douvery",
                 "pages": [
-                  "guias/user-guides/how-to-buy-on-douvery",
+                  "guias/user-guides/how-to-buy-on-douvery"
+                ]
+              },
+              {
+                "group": "Mi cuenta",
+                "pages": [
                   "guias/user-guides/how-to-change-my-password-on-douvery",
-                  "guias/user-guides/how-to-delete-my-account-on-douvery",
-                  "guias/user-guides/how-to-sell-on-douvery"
+                  "guias/user-guides/how-to-delete-my-account-on-douvery"
                 ]
               },
               {
@@ -64,48 +67,7 @@
             ]
           },
           {
-            "group": "Legal",
-            "pages": [
-              "legal/policy",
-              {
-                "group": "Políticas",
-                "pages": [
-                  "legal/policy/payment-policy",
-                  "legal/policy/policy-against-counterfeiting-of-products-and-services",
-                  "legal/policy/privacy-policy",
-                  "legal/policy/returns-and-refunds-policy-of-douvery",
-                  "legal/policy/shipping-policy",
-                  "legal/policy/tax-policy",
-                  "legal/policy/terms-of-use-of-douvery",
-                  "legal/policy/user-generated-content-policy",
-                  "legal/policy/warranty-policy",
-                  "legal/policy/how-douvery-marketplace-works",
-                  "legal/policy/purchase-terms",
-                  "legal/policy/seller-policy",
-                  "legal/policy/disputes-cancellations-chargebacks",
-                  "legal/policy/complaints-and-appeals",
-                  "legal/policy/product-safety-and-recalls",
-                  "legal/policy/intellectual-property-reports",
-                  "legal/policy/prohibited-and-restricted-products",
-                  "legal/policy/douvery-center-subscription-terms"
-                ]
-              },
-              {
-                "group": "Códigos de conductas",
-                "pages": [
-                  "legal/codes-of-conduct/douvery-code-of-conduct-for-product-testimonials-and-reviews"
-                ]
-              },
-              {
-                "group": "Pagos",
-                "pages": [
-                  "legal/pays/protection-of-credit-and-debit-card-information"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Logística y Entregas",
+            "group": "Logística y entregas",
             "pages": [
               "logistica-y-entregas/logistica-y-entregas",
               "logistica-y-entregas/seguimiento-de-pedidos",
@@ -114,7 +76,7 @@
             ]
           },
           {
-            "group": "Productos y Catálogo",
+            "group": "Productos y catálogo",
             "pages": [
               "productos-y-catalogo/productos-y-catalogo",
               "productos-y-catalogo/como-buscar-productos-efectivamente",
@@ -125,20 +87,84 @@
             ]
           },
           {
-            "group": "Soporte y Solución de Problemas",
+            "group": "Soporte",
             "pages": [
               "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
-              "soporte-y-solucion-de-problemas/problemas-de-pago"
-            ]
-          },
-          {
-            "group": "Ayudas y mas",
-            "pages": [
+              "soporte-y-solucion-de-problemas/problemas-de-pago",
               "ayudas-y-mas/contactos"
             ]
           }
-        ],
-        "expanded": true
+        ]
+      },
+      {
+        "tab": "Douvery Center",
+        "icon": "building-store",
+        "groups": [
+          {
+            "group": "Empezar",
+            "pages": [
+              "nuestros-servicios/douvery-center",
+              "guias/user-guides/how-to-sell-on-douvery"
+            ]
+          },
+          {
+            "group": "Planes y facturación",
+            "pages": [
+              "legal/policy/douvery-center-subscription-terms"
+            ]
+          },
+          {
+            "group": "Políticas para vendedores",
+            "pages": [
+              "legal/policy/seller-policy",
+              "legal/policy/prohibited-and-restricted-products"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "icon": "scale",
+        "groups": [
+          {
+            "group": "Información legal",
+            "pages": [
+              "legal/policy"
+            ]
+          },
+          {
+            "group": "Marketplace y compras",
+            "pages": [
+              "legal/policy/how-douvery-marketplace-works",
+              "legal/policy/purchase-terms",
+              "legal/policy/terms-of-use-of-douvery",
+              "legal/policy/payment-policy",
+              "legal/policy/returns-and-refunds-policy-of-douvery",
+              "legal/policy/warranty-policy",
+              "legal/policy/shipping-policy",
+              "legal/policy/tax-policy"
+            ]
+          },
+          {
+            "group": "Privacidad y contenido",
+            "pages": [
+              "legal/policy/privacy-policy",
+              "legal/pays/protection-of-credit-and-debit-card-information",
+              "legal/policy/user-generated-content-policy",
+              "legal/codes-of-conduct/douvery-code-of-conduct-for-product-testimonials-and-reviews"
+            ]
+          },
+          {
+            "group": "Protección y cumplimiento",
+            "pages": [
+              "legal/policy/policy-against-counterfeiting-of-products-and-services",
+              "legal/policy/product-safety-and-recalls",
+              "legal/policy/intellectual-property-reports",
+              "legal/policy/disputes-cancellations-chargebacks",
+              "legal/policy/complaints-and-appeals"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -155,7 +181,6 @@
     ],
     "primary": {
       "type": "button",
-
       "label": "Instala nuestra app",
       "href": "https://help.douvery.com/aplicacion-de-douvery"
     }
@@ -168,11 +193,11 @@
       "assistant"
     ]
   },
-"scripts": [
-  {
-    "inline": "window.chatwootSettings = {\"position\":\"right\",\"type\":\"expanded_bubble\",\"launcherTitle\":\"Chatea con nosotros\"}; (function(d,t) { var BASE_URL=\"https://app.chatwoot.com\"; var g=d.createElement(t),s=d.getElementsByTagName(t)[0]; g.src=BASE_URL+\"/packs/js/sdk.js\"; g.async = true; s.parentNode.insertBefore(g,s); g.onload=function(){ window.chatwootSDK.run({ websiteToken: 'ztSuqatJP8fsEeqMKSBNhEi6', baseUrl: BASE_URL }) } })(document,\"script\");"
-  }
-],
+  "scripts": [
+    {
+      "inline": "window.chatwootSettings = {\"position\":\"right\",\"type\":\"expanded_bubble\",\"launcherTitle\":\"Chatea con nosotros\"}; (function(d,t) { var BASE_URL=\"https://app.chatwoot.com\"; var g=d.createElement(t),s=d.getElementsByTagName(t)[0]; g.src=BASE_URL+\"/packs/js/sdk.js\"; g.async = true; s.parentNode.insertBefore(g,s); g.onload=function(){ window.chatwootSDK.run({ websiteToken: 'ztSuqatJP8fsEeqMKSBNhEi6', baseUrl: BASE_URL }) } })(document,\"script\");"
+    }
+  ],
   "footer": {
     "socials": {
       "x": "https://x.com/douvery",
