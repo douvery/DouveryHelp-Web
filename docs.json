@@ -192,7 +192,9 @@
             "group": "Marketplace y compras",
             "pages": [
               "legal/policy/how-douvery-marketplace-works",
+              "legal/policy/seller-marketplace-agreement",
               "legal/policy/purchase-terms",
+              "legal/policy/douvery-buyer-protection",
               "legal/policy/terms-of-use-of-douvery",
               "legal/policy/payment-policy",
               "legal/policy/returns-and-refunds-policy-of-douvery",
@@ -217,6 +219,7 @@
               "legal/policy/policy-against-counterfeiting-of-products-and-services",
               "legal/policy/product-safety-and-recalls",
               "legal/policy/intellectual-property-reports",
+              "legal/policy/dmca-copyright-policy",
               "legal/policy/disputes-cancellations-chargebacks",
               "legal/policy/complaints-and-appeals"
             ]
