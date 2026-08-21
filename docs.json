@@ -21,8 +21,7 @@
             "group": "Inicio",
             "pages": [
               "home",
-              "aplicacion-de-douvery",
-              "estados-de-nuestros-servicios"
+              "aplicacion-de-douvery"
             ]
           },
           {
@@ -84,14 +83,6 @@
               "productos-y-catalogo/lista-de-deseos-y-favoritos",
               "productos-y-catalogo/resenas-y-calificaciones",
               "productos-y-catalogo/comparacion-de-productos"
-            ]
-          },
-          {
-            "group": "Soporte",
-            "pages": [
-              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
-              "soporte-y-solucion-de-problemas/problemas-de-pago",
-              "ayudas-y-mas/contactos"
             ]
           }
         ]
@@ -173,6 +164,53 @@
             "pages": [
               "legal/policy/seller-policy",
               "legal/policy/prohibited-and-restricted-products"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Soporte",
+        "icon": "life-ring",
+        "groups": [
+          {
+            "group": "Empezar",
+            "pages": [
+              "soporte",
+              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
+              "soporte/problemas-tecnicos",
+              "estados-de-nuestros-servicios"
+            ]
+          },
+          {
+            "group": "Compras y pedidos",
+            "pages": [
+              "soporte/pedidos"
+            ]
+          },
+          {
+            "group": "Pagos y reembolsos",
+            "pages": [
+              "soporte/pagos-y-reembolsos",
+              "soporte/devoluciones-y-reembolsos",
+              "soporte-y-solucion-de-problemas/problemas-de-pago"
+            ]
+          },
+          {
+            "group": "Cuenta y seguridad",
+            "pages": [
+              "soporte/cuenta-y-seguridad"
+            ]
+          },
+          {
+            "group": "Vendedores",
+            "pages": [
+              "soporte/vendedores"
+            ]
+          },
+          {
+            "group": "Contacto",
+            "pages": [
+              "ayudas-y-mas/contactos"
             ]
           }
         ]
