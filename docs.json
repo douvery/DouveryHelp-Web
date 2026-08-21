@@ -330,7 +330,7 @@
     }
   },
   "icons": {
-    "library": "tabler"
+    "library": "lucide"
   },
   "search": {
     "prompt": "Buscar ..."
