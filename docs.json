@@ -178,6 +178,36 @@
         ]
       },
       {
+        "tab": "Soporte",
+        "icon": "life-ring",
+        "groups": [
+          {
+            "group": "Empezar",
+            "pages": [
+              "soporte"
+            ]
+          },
+          {
+            "group": "Compras y pedidos",
+            "pages": [
+              "soporte/pedidos"
+            ]
+          },
+          {
+            "group": "Pagos y reembolsos",
+            "pages": []
+          },
+          {
+            "group": "Cuenta y seguridad",
+            "pages": []
+          },
+          {
+            "group": "Contacto",
+            "pages": []
+          }
+        ]
+      },
+      {
         "tab": "Legal",
         "icon": "scale",
         "groups": [
