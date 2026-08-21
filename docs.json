@@ -88,11 +88,7 @@
           },
           {
             "group": "Soporte",
-            "pages": [
-              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
-              "soporte-y-solucion-de-problemas/problemas-de-pago",
-              "ayudas-y-mas/contactos"
-            ]
+            "pages": []
           }
         ]
       },
@@ -184,7 +180,8 @@
           {
             "group": "Empezar",
             "pages": [
-              "soporte"
+              "soporte",
+              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes"
             ]
           },
           {
@@ -195,15 +192,23 @@
           },
           {
             "group": "Pagos y reembolsos",
-            "pages": []
+            "pages": [
+              "soporte/pagos-y-reembolsos",
+              "soporte/devoluciones-y-reembolsos",
+              "soporte-y-solucion-de-problemas/problemas-de-pago"
+            ]
           },
           {
             "group": "Cuenta y seguridad",
-            "pages": []
+            "pages": [
+              "soporte/cuenta-y-seguridad"
+            ]
           },
           {
             "group": "Contacto",
-            "pages": []
+            "pages": [
+              "ayudas-y-mas/contactos"
+            ]
           }
         ]
       },
