@@ -21,8 +21,7 @@
             "group": "Inicio",
             "pages": [
               "home",
-              "aplicacion-de-douvery",
-              "estados-de-nuestros-servicios"
+              "aplicacion-de-douvery"
             ]
           },
           {
@@ -85,10 +84,6 @@
               "productos-y-catalogo/resenas-y-calificaciones",
               "productos-y-catalogo/comparacion-de-productos"
             ]
-          },
-          {
-            "group": "Soporte",
-            "pages": []
           }
         ]
       },
@@ -181,7 +176,9 @@
             "group": "Empezar",
             "pages": [
               "soporte",
-              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes"
+              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
+              "soporte/problemas-tecnicos",
+              "estados-de-nuestros-servicios"
             ]
           },
           {
@@ -202,6 +199,12 @@
             "group": "Cuenta y seguridad",
             "pages": [
               "soporte/cuenta-y-seguridad"
+            ]
+          },
+          {
+            "group": "Vendedores",
+            "pages": [
+              "soporte/vendedores"
             ]
           },
           {
