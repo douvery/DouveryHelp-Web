@@ -1,0 +1,5 @@
+/* Keep the Douvery wordmark compact while preserving the navbar hit area. */
+nav-logo img {
+  max-height: 20px !important;
+  width: auto !important;
+}
