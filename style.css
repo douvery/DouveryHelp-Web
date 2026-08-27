@@ -1,7 +1,7 @@
 /* Keep the Douvery wordmark compact while preserving the navbar hit area. */
 img.nav-logo,
 img.nav-logo.h-7 {
-  height: 20px !important;
-  max-height: 20px !important;
+  height: 22px !important;
+  max-height: 22px !important;
   width: auto !important;
 }
