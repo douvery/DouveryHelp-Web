@@ -88,7 +88,6 @@
       },
       {
         "tab": "Douvery Center",
-        "icon": "store",
         "groups": [
           {
             "group": "Empezar",
@@ -169,7 +168,6 @@
       },
       {
         "tab": "Soporte",
-        "icon": "headphones",
         "groups": [
           {
             "group": "Empezar",
@@ -216,7 +214,6 @@
       },
       {
         "tab": "Legal",
-        "icon": "scale",
         "groups": [
           {
             "group": "Información legal",
